@@ -1,0 +1,9 @@
+[package]
+name = "rust-amqp-example"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+amqp-client-rs = { git = "https://github.com/cloudamqp/amqp-client.rs" }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }

@@ -5,7 +5,7 @@ version = 4
 [[package]]
 name = "amqp-client-rs"
 version = "0.1.0"
-source = "git+https://github.com/cloudamqp/amqp-client.rs#7cc6f0a33457991aabab4aa14e501532bd42f286"
+source = "git+https://github.com/cloudamqp/amqp-client.rs#0df46fe2d647fb8078a2706b9f5bcd6842967b8d"
 dependencies = [
  "bitflags",
  "bytes",
